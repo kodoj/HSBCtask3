@@ -1,11 +1,12 @@
+import bracketPush.BracketChecker;
 import scrabble.Scrabble;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Scrabble scrabble = new Scrabble("cabbage");
+        BracketChecker bc = new BracketChecker("[]{}{(})");
 
-        System.out.println(scrabble.getScore());
+        System.out.println(bc.areBracketsMatchedAndNestedCorrectly());
     }
 }
