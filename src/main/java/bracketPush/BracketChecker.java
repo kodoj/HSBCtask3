@@ -11,7 +11,6 @@ public class BracketChecker {
     public boolean areBracketsMatchedAndNestedCorrectly() {
         char currentChar;
         int firstIndex = 0;
-        int removingIndex;
 
         while (bracketString.length() > 0) {
             currentChar = bracketString.charAt(firstIndex);
