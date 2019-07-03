@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8727e48e-7f21-4401-a4e5-e95f8a753d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/bracketPush/BracketCheckerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bracketPush/BracketChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bracketPush/BracketChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bracketPush/BracketCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bracketPush/BracketCheckerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bracketPush/BracketChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="119">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -64,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bracketPush/BracketCheckerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+            <state relative-caret-position="384">
+              <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,11 +109,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ScrabbleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/scrabble/ScrabbleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bracketPush/BracketChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/BracketCheckerTest/BracketChecker.java" />
         <option value="$PROJECT_DIR$/src/test/java/bracketCheckerTest/BracketChecker.java" />
         <option value="$PROJECT_DIR$/src/test/java/bracketPush/BracketCheckerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bracketPush/BracketChecker.java" />
       </list>
     </option>
   </component>
@@ -179,6 +177,22 @@
               <item name="codecool" type="b2602c69:ProjectViewProjectNode" />
               <item name="codecool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bracketPush" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codecool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codecool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scrabble" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codecool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codecool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,6 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -293,7 +308,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562144672922</updated>
-      <workItem from="1562144674524" duration="3706000" />
+      <workItem from="1562144674524" duration="4238000" />
     </task>
     <servers />
   </component>
@@ -316,9 +331,18 @@
     <history-entry file="BracketCheckerTest - 2019.07.03 at 12h 03m 56s.xml">
       <configuration name="BracketCheckerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BracketCheckerTest - 2019.07.03 at 12h 06m 29s.xml">
+      <configuration name="BracketCheckerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BracketCheckerTest - 2019.07.03 at 12h 07m 42s.xml">
+      <configuration name="BracketCheckerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BracketCheckerTest - 2019.07.03 at 12h 09m 58s.xml">
+      <configuration name="BracketCheckerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3706000" />
+    <option name="totallyTimeSpent" value="4238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -326,7 +350,7 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -336,7 +360,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,6 +401,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scrabble/Scrabble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -384,16 +418,6 @@
           <folding>
             <element signature="e#92#93#0" expanded="true" />
             <element signature="e#111#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -408,23 +432,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bracketPush/BracketChecker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/bracketPush/BracketCheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="384">
+          <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
           <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bracketPush/BracketCheckerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bracketPush/BracketChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        <state relative-caret-position="119">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -18,22 +18,19 @@ public class BracketChecker {
 
             if(currentChar == '(') {
                 if(bracketString.contains(")")) {
-                    removingIndex = bracketString.indexOf(')');
-                    bracketString = bracketString.substring(1, removingIndex) + bracketString.substring(removingIndex+1);
+                    getPairAndDelete(')');
                 } else {
                     return false;
                 }
             } else if (currentChar == '{') {
                 if(bracketString.contains("}")) {
-                    removingIndex = bracketString.indexOf('}');
-                    bracketString = bracketString.substring(1, removingIndex) + bracketString.substring(removingIndex+1);
+                    getPairAndDelete('}');
                 } else {
                     return false;
                 }
             } else if (currentChar == '[') {
                 if(bracketString.contains("]")) {
-                    removingIndex = bracketString.indexOf(']');
-                    bracketString = bracketString.substring(1, removingIndex) + bracketString.substring(removingIndex+1);
+                    getPairAndDelete(']');
                 } else {
                     return false;
                 }
@@ -43,5 +40,11 @@ public class BracketChecker {
         }
 
         return true;
+    }
+
+    private void getPairAndDelete(char c) {
+        int removingIndex;
+        removingIndex = bracketString.indexOf(c);
+        bracketString = bracketString.substring(1, removingIndex) + bracketString.substring(removingIndex + 1);
     }
 }

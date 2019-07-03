@@ -32,4 +32,11 @@ public class BracketCheckerTest {
 
         assertFalse(bc.areBracketsMatchedAndNestedCorrectly());
     }
+
+    @Test
+    public void returnFalseIfWordContainsOtherCharacters() {
+        BracketChecker bc = new BracketChecker("(a)");
+
+        assertFalse(bc.areBracketsMatchedAndNestedCorrectly());
+    }
 }
